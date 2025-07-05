@@ -2,12 +2,15 @@ import sys, krippendorff
 import pandas as pd
 import numpy as np
 
-def matriz_kripp (dataset):
+def matriz_kripp(dataset: pd.DataFrame) -> np.array:
     # copio dataset
     data = dataset.copy()
 
-    # anotadores
-    anotadores = data["Nombre anotador(a)"].unique()
+    if ("Nombre anotador(a)" in data.columns):
+        anotadores = data["Nombre anotador(a)"].unique()
+
+    else:
+        anotaciones = ['Predicciones', 'Calificaciones']
 
     # agrego anotaciones
     anotaciones = {}
@@ -19,10 +22,17 @@ def matriz_kripp (dataset):
 
         anotaciones[ann] = anotaciones_ann
 
-    # convierto en DataFrame, printeamos y devolvemos matriz
+    # convierto en DataFrame y devolvemos matriz
     df = pd.DataFrame(anotaciones)
-    print("\n", df)
+
     return df.values.T.astype(str)
+
+
+def calcula_alpha_kripp(matriz: np.array) -> float:
+    domain = ["Antisemita", "Negativo", "Indefinido"]
+    alpha = krippendorff.alpha(reliability_data=matriz, level_of_measurement='nominal', value_domain=domain)
+    return alpha
+
 
 def main ():
     # leo dataset anotado
@@ -34,8 +44,7 @@ def main ():
     matriz = matriz_kripp(dataset)
 
     # calculo IAA
-    domain = ["Antisemita", "Negativo", "Indefinido"]
-    alpha = krippendorff.alpha(reliability_data=matriz, level_of_measurement='nominal', value_domain=domain)
+    alpha = calcula_alpha_kripp(matriz)
     print('\nIAA: ', alpha)
 
 
