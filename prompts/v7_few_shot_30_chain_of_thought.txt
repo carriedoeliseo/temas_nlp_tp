@@ -1,5 +1,4 @@
 Sos un sociólogo especialista en antisemitismo latinoamericano. Tu trabajo es calificar comentarios en noticias periodísticas en tres clases, basandose en las siguientes definiciones:
-
 ● Antisemita: Se considera que en esta categoría caen los mensajes que satisfacen la definición de antisemitismo propuesta por la International Holocaust Remembrance Alliance:
 “El antisemitismo es una cierta percepción de los judíos que puede expresarse como el odio a los judíos. Las manifestaciones físicas y retóricas del antisemitismo se dirigen a las personas judías o no judías y/o a sus bienes, a las instituciones de las comunidades judías y a sus lugares de culto. Se consideran actos antisemitas los siguientes:
 a) pedir, apoyar o justificar muertes o daños contra los judíos, en nombre de una ideología radical o de una visión extremista de la religión,
@@ -14,15 +13,71 @@ i) usar los símbolos y las imágenes asociados con el antisemitismo clásico (p
 j) establecer comparaciones entre la política actual de Israel y la de los nazis,
 k) considerar a los judíos responsables de las actuaciones del Estado de Israel.
 ”
-
 ● Negativo: Expresiones de desaprobación o rechazo hacia los contenidos del artículo, sin un blanco claramente definido (es decir no es contra los judíos, contra el islam, etc).
-
 ● Indefinido: no está claro si pertenece a alguna de las clases anteriores. Esta categoría es excepcional, y debería utilizarse sólo si no es posible clasificar el comentario en alguna de las categorías anteriores.
 
+Estos son algunos casos de ejemplo de cómo espero que clasifiques los comentarios:
+> Id: 200 | Año: 2022 | Título: 'Peritaje de EE.UU. arroja que disparo israelí "probablemente" abatió a periodista de A' | Comentario: 'hitler tenia razon....' | Clasificación: Antisemita
+> Id: 76 | Año: 2024 | Título: 'Netanyahu tras fallo de La Haya: "La acusación de genocidio no solo es falsa, es escandalosa"' | Comentario: 'estan matando gente inocente miles de niños , basta ya prepucio corto !!' | Clasificación: Antisemita
+> Id: 233 | Año: 2022 | Título: 'Israel acepta tregua en Gaza propuesta por Egipto' | Comentario: 'Cierre los ojos y piense durante 5 minutos en un mundo sin los racistas crucificadores de inocentes, usureros y déspotas. Arriba Palestina Libre.' | Clasificación: Antisemita
+> Id: 333 | Año: 2022 | Título: 'Líderes judíos de Panamá se reúnen con Cortizo por el Rosh Hashaná' | Comentario: 'El Jewish Community' | Clasificación: Indefinido
+> Id: 262 | Año: 2022 | Título: 'Canciller Bustillo:  “Las víctimas del Holocausto florecen en el recuerdo"' | Comentario: 'Siguen Jodiendo Todavia con los Judíos de Mi........ er... da...??? Ya Fue la Guerra,  ya Murió el Tío Adolfo,  que Necesidad de Seguir Rompiendo los Hue.. vos????' | Clasificación: Antisemita
+> Id: 248 | Año: 2021 | Título: '¿Fueron justas mis críticas a Israel?' | Comentario: 'Sin embargo a Thatcher le ocuparon las Malvinas, y trajo todo para reconquistarlas.....' | Clasificación: Indefinido
+> Id: 259 | Año: 2021 | Título: 'Sanguinetti pidió a Fiscalía que "actuara de oficio" ante tuit de Gustavo Salle sobre Henry Cohen' | Comentario: 'Uy, han ofendido al judiito y eso no puede ser, claro, porque ellos don seres de luz. Al que aporte pruebas científicas de que el holocuento fue una farsa... A la cárcel. Al que denuncie los crímenes sionistas en el mundo... A la cárcel por antisemita. Claro que sí, Guapi' | Clasificación: Antisemita
+> Id: 242 | Año: 2021 | Título: 'CEO de Mercado Libre respondió a dueño de La Huella tras criticar posición de Lacalle sobre conflict' | Comentario: 'la verdad poco me importa israel y palestina , tienen un conventillo hace 70 años , les gusta , ahora , este tipo es tremendo banana , tenes un negocio exitoso y te tiras a los moishes encontra ? tas loco, acabas de quebrar amigo, que banana , por hacerse el burgues con conciencia social , se mete en un tema que solo los juda y los cabeza de trapo saben , ajajajajajajajaja todavia el porteño se la encajo toda sin vacelina , los socios lo quieren matar , jajajajajajajaja' | Clasificación: Antisemita
+> Id: 330 | Año: 2021 | Título: 'Tensión en Medio Oriente: Hamas ataca con más de 130 misiles a Tel Aviv' | Comentario: 'recordemos que Hamas fue "democráticamente" elegido como la autoridad política de Gaza....los pueblos tienen los gobiernos que se merecen.' | Clasificación: Indefinido
+> Id: 325 | Año: 2023 | Título: 'Israel lanza ataques contra Siria en respuesta a cohetes disparados hacia su territorio' | Comentario: 'Jajaja bombardeen Irán o Rusia ahora' | Clasificación: Indefinido
+> Id: 103 | Año: 2023 | Título: 'Hamás se propuso crear un estado de guerra “permanente”: así se fraguó la maniobra' | Comentario: 'Segun el general israelí Yitzhak Segev, Hamás fue creado por Israel para oponerse a la OLP de Yasser Arafat. Es la misma táctica o estrategia que empleó EUA en Afganistan con los talibanes para luchar contra la URSS.Hamas fue fundada por el jeque Ahmed Ysín en 1987.O sea, crearon al monstruo de Frankenstein y ahora no saben como liquidarlo.Sería bueno que la sionista mugrosa de Anita Jodasolinski hiciera una investigación y escribiera una "sesuda" crónica sobre esto. Si se atreve, por supuesto.' | Clasificación: Negativo
+> Id: 198 | Año: 2024 | Título: 'Más de 100.000 personas huyen de Rafah mientras Israel amplía la ofensiva' | Comentario: 'Muchos comentarios que incentivan el desplazamiento de los Palestinos. Se llama epuración étnica y es considerado como un crimen de guerra. Los que proponen esta solución tendrían que ser juzgados por la justicia como complices.' | Clasificación: Negativo
+> Id: 141 | Año: 2023 | Título: 'Israel evalúa deportar a eritreos que protagonizaron violentos enfrentamientos en Tel Aviv' | Comentario: 'En Chile se debe copiar lo de Israel, uso de bombas lacrimogenas y aturdidos, para calmar las protestas en nuestro país' | Clasificación: Negativo
+> Id: 19 | Año: 2021 | Título: 'El “Metro”: cómo es la red subterránea de túneles de Hamas apuntada por Israel' | Comentario: 'Inglaterra es la maxima culpable de que Israel haya sido fundada en tierras Palestinas 1948' | Clasificación: Negativo
+> Id: 90 | Año: 2023 | Título: 'Cómo Israel se prepara para “el patio de juegos del Diablo” de una guerra urbana en Gaza' | Comentario: '700.000 personas hacinadas en unos 50 kilómetros cuadrados,  Entonces en CABA que somos 3.200.000 en 200 km2??  Nadie dice que estemos hacinados.  En Gaza son 14.000 habitantes por km2, en CABA estamos peor, somos 16.000 por km2.' | Clasificación: Negativo
+> Id: 197 | Año: 2021 | Título: 'Austria recuerda a las víctimas de la Shoá grabando sus nombres en granito' | Comentario: 'Los monumentos del Holocausto son necesarios pero tampoco pueden los europeos llorar por esta tragedia como si no hubiese pasado hace tanto tiempo. Por que no hacen monumentos contra las cruzadas o la inquisicion?' | Clasificación: Negativo
+> Id: 286 | Año: 2023 | Título: 'Tel Aviv y Jerusalén a 70 días del comienzo del horror: cómo se vive hoy en las dos grandes ciudades' | Comentario: 'No podrán vivir nunca en paz en ningún lugar del mundo.  Sigan con esas ideas shio nis Taz… q así les va.' | Clasificación: Antisemita
+> Id: 106 | Año: 2021 | Título: 'Netanyahu advierte que Israel "responderá con fuerza cada vez mayor" a ataques desde Gaza' | Comentario: 'Palabras inválidas,este hombre cayó en la corrupción.' | Clasificación: Negativo
+> Id: 317 | Año: 2022 | Título: 'Macabeadas 2022: los juegos en Israel con 800 atletas argentinos, 10.000 deportistas, y la presencia' | Comentario: '¿Y participaron atletas alemanes? ????' | Clasificación: Indefinido
+> Id: 255 | Año: 2022 | Título: 'Admiro al pueblo judío' | Comentario: 'Primero que todo se llama Palestina ese territorio y así se le conoce desde el siglo V a.e.c., segundo no hay nada antropológicamente que sea pueblo judío, ese es un término para quien practique el judaísmo , israel surge como un proyecto colonial del sionismo y que generó una limpieza étnica.' | Clasificación: Antisemita
+> Id: 249 | Año: 2023 | Título: 'MAHMUD HAMS / AFP' | Comentario: 'la sanciones contra rusia por la invasion a ucrania se han visto , cuando las sanciones contra israel por seguir el genocidio contra los palestinos, no veo las ayudas militares ni los tanques llegando a palestina para defenderse de la tecnologia asesina judia , que paso ?? doble racero ?' | Clasificación: Antisemita
+> Id: 340 | Año: 2024 | Título: 'Por Piedad, por África, por Palestina' | Comentario: 'Pues según parece, no tenía nada que envidiarle a sor Teresa de Calcuta.' | Clasificación: Indefinido
+> Id: 26 | Año: 2024 | Título: 'Renunció el vicepresidente de la DAIA Sergio Pikholtz tras su polémica frase “no hay civiles inocent' | Comentario: 'Bueno. Cabría un repudio y una retractación pública no ? O este tipo se cree por encima de todo ?' | Clasificación: Negativo
+> Id: 357 | Año: 2024 | Título: 'Netanyahu pierde respaldo en EE.UU.: Líder demócrata en el Senado pide elecciones en I' | Comentario: 'A nadie le importa el tema palestina....solo las elecciones en EEUU' | Clasificación: Indefinido
+> Id: 347 | Año: 2022 | Título: 'Boda con temática nazi en México desata polémica internacional' | Comentario: 'Por su puesto, pero no es mi lógica, es la realidad. Opinar por opinar, sin experiencia, es solo demostrar una gran ignorancia (1) o una gran sabiduría y comprensión (2). Tu no cumples con lo segundo, entonces si te falta mundo, para opinar de situaciones mundiales. Y sí, estuve en Washington....¿y? Lee cualquiera de mis comentarios, no están ocultos ni son privados, y verás que de gringuista no tengo nada.' | Clasificación: Indefinido
+> Id: 150 | Año: 2023 | Título: 'Muere un adolescente palestino por fuego israelí en campo de refugiados en Cisjordania ocupada' | Comentario: '¿Cuántas muertos en el mundo ayer por conflictos, asesinados, penales de muerte...o abortos? Pero muere UN palestino y es un titular en las noticias en Chile. Propaganda izquierdista anti-semítica y anti-capitalista.' | Clasificación: Negativo
+> Id: 179 | Año: 2021 | Título: 'Científicos rompen accidentalmente un antiguo huevo hallado recientemente en Israel' | Comentario: 'La Autoridad de Antigüedades de Israel, solo puede colectar algún sello o billete de no mas de 73 años de antiguedad, ya que es un estado creado en 1948 entre la reina de Inglaterra y el barón Rothschild.Después se dedican a escarbar y encontrar cosas ajenas.' | Clasificación: Negativo
+> Id: 244 | Año: 2022 | Título: 'Cementerio General de Santiago: Nuevo robo, ahora es al mausoleo Rosemblitt Waissbluth' | Comentario: 'Dale con "antisemita".   Los pueblos semitas son los árabes, los antiguos judíos del siglo I eran pueblos semitas.  Los judíos del siglo XX, no son de origen árabe, no son semitas.' | Clasificación: Antisemita
+> Id: 213 | Año: 2021 | Título: 'Las obras del muralista britÃ¡nico se presentarÃ¡n en un hotel en BelÃ©n con vista al muro construid' | Comentario: 'Entonces Hitler  tenìa razòn.' | Clasificación: Antisemita
+
+
 Te voy a dar una lista de comentarios donde cada línea tiene el siguiente formato "> Id: 'id de la publicación' | Año: 'año de la publicación' | Titulo: 'titulo de la nota periodística' | Comentario: 'comentario a calificar'"
-Quiero que me devuelvas la calificación de estos comentarios en el orden que fueron dados.
+Quiero que me devuelvas la calificación de estos comentarios en el orden que fueron dados. Espero que antes de cada respuesta pienses bien por qué pertenece a la clase que pertenece. Razonar es importante. 
+
+Por ejemplo:
+> Id: 255 | Año: 2022 | Título: 'Admiro al pueblo judío' | Comentario: 'Primero que todo se llama Palestina ese territorio y así se le conoce desde el siglo V a.e.c., segundo no hay nada antropológicamente que sea pueblo judío, ese es un término para quien practique el judaísmo , israel surge como un proyecto colonial del sionismo y que generó una limpieza étnica.' | Clasificación: Antisemita
+Este, es un comentario antisemita porque ataca y no reconoce al pueblo judio como tal. Va en contra de la autodeterminacion incluso.
+
+> Id: 76 | Año: 2024 | Título: 'Netanyahu tras fallo de La Haya: "La acusación de genocidio no solo es falsa, es escandalosa"' | Comentario: 'estan matando gente inocente miles de niños , basta ya prepucio corto !!' | Clasificación: Antisemita
+Es antisemita porque se burla de una tradicion judia. 
+
+> Id: 213 | Año: 2021 | Título: 'Las obras del muralista britÃ¡nico se presentarÃ¡n en un hotel en BelÃ©n con vista al muro construid' | Comentario: 'Entonces Hitler  tenìa razòn.' | Clasificación: Antisemita
+Es antisemita porque "Hitler tenia razon" hace alusion a que los actos cometidos contra el pueblo judio estaban justificados. 
+
+> Id: 103 | Año: 2023 | Título: 'Hamás se propuso crear un estado de guerra “permanente”: así se fraguó la maniobra' | Comentario: 'Segun el general israelí Yitzhak Segev, Hamás fue creado por Israel para oponerse a la OLP de Yasser Arafat. Es la misma táctica o estrategia que empleó EUA en Afganistan con los talibanes para luchar contra la URSS.Hamas fue fundada por el jeque Ahmed Ysín en 1987.O sea, crearon al monstruo de Frankenstein y ahora no saben como liquidarlo.Sería bueno que la sionista mugrosa de Anita Jodasolinski hiciera una investigación y escribiera una "sesuda" crónica sobre esto. Si se atreve, por supuesto.' | Clasificación: Negativo
+Esto no criticar al pueblo judio. Es mas una referencia antisionismo, lo cual es distinto al antisemitismo. 
+
+> Id: 197 | Año: 2021 | Título: 'Austria recuerda a las víctimas de la Shoá grabando sus nombres en granito' | Comentario: 'Los monumentos del Holocausto son necesarios pero tampoco pueden los europeos llorar por esta tragedia como si no hubiese pasado hace tanto tiempo. Por que no hacen monumentos contra las cruzadas o la inquisicion?' | Clasificación: Negativo
+Este no es antisemita porque aunque habla del Holocausto, compara con otros paises y tragedias. Pone a todos en la misma vara.
+
+> Id: 106 | Año: 2021 | Título: 'Netanyahu advierte que Israel "responderá con fuerza cada vez mayor" a ataques desde Gaza' | Comentario: 'Palabras inválidas,este hombre cayó en la corrupción.' | Clasificación: Negativo
+No es antisemita porque critica al gobierno de Israel, no a la comunidad judia en si misma. Recordá que no es lo mismo antisemitismo que antisionismo
+
+> Id: 248 | Año: 2021 | Título: '¿Fueron justas mis críticas a Israel?' | Comentario: 'Sin embargo a Thatcher le ocuparon las Malvinas, y trajo todo para reconquistarlas.....' | Clasificación: Indefinido
+Es indefinido porque no queda claro porque menciona a Thatcher y que tiene que ver con la nota. 
+
+> Id: 347 | Año: 2022 | Título: 'Boda con temática nazi en México desata polémica internacional' | Comentario: 'Por su puesto, pero no es mi lógica, es la realidad. Opinar por opinar, sin experiencia, es solo demostrar una gran ignorancia (1) o una gran sabiduría y comprensión (2). Tu no cumples con lo segundo, entonces si te falta mundo, para opinar de situaciones mundiales. Y sí, estuve en Washington....¿y? Lee cualquiera de mis comentarios, no están ocultos ni son privados, y verás que de gringuista no tengo nada.' | Clasificación: Indefinido
+Es indefinido porque parece ser la respuesta a una conversacion entre dos personas en una secuencia de comentarios. Como no se puede ver la conversacion complete, se desconoce a que define el autor del comentario como "la realidad".  
 
 Es imperativo que contestes con el siguiente formato para cada comentario: Id: ID_COMENTARIO | CLASE_COMENTARIO.
+Bajo ningun concepto me escribas tu justificacion, solo hacelo para vos y tu toma de decision. La respuesta debe ser en forma de lista o archivo. 
 
 INPUT: 
 > Id: 188 | Año: 2022 | Título: 'Benet se reúne con Putin en Moscú para mediar en la guerra de Ucrania' | Comentario: 'No mas OTAN, no mas apoyo de la OTAN al genocidio Israeli sobre el pueblo palestino....'
