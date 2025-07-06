@@ -1,0 +1,63 @@
+a.  Introducción [sebas]
+    i.  Cuál es el problema, Por qué es importante, qué hacen, en qué se 
+    diferencia de otros trabajos 
+    > ...
+
+[sebas]
+b.  Trabajos previos para Español si encuentran (distintas variantes). Sino en inglés 
+    y/ o otras lenguas.  
+    > 
+
+c.  Metodología 
+
+    [fede]
+    ii.  Data Statements escritos por ustedes (de acuerdo a lo pedido más arriba). 
+        > The curation rationale should answer questions including: 
+        Why was this dataset created? 
+        
+        What is the task or research question the dataset is intended to address? 
+        
+        Which texts were included and what were the goals in selecting texts, both in the original collection and in any further sub-selection? What is the internal organization of the dataset? 
+        
+        What constitutes a data instance? 
+
+    iii.  Detalles técnicos (decisiones de implementación, por ej. cómo se 
+    resuelven discrepancias entre asignación de anotadores) y cómo implementaron el IAA.  
+
+    [eli]
+    i.  Cómo seleccionaron los subconjuntos de datos a anotar 
+    > División del dataset en Train | Vali | Held Out con clases balanceadas
+    > Calculo de IAA para distintos prompts y LLMs
+    > En datasets internos usamos el criterio de la mayoría
+
+    [mañana]
+    iv. Cómo hicieron el prompting 
+    > Separación entre contexto y pedido
+    > El contexto tiene ejemplos o no (few-shot, one-shot learning)
+    > Chain of Thought
+    > Roles
+
+
+2.  Prompt utilizado (agregar ejemplos si los hubo) (en anexo) 
+    - V2 y V4
+
+d.  Resultados del IAA (vuestro cálculo de la tabla 3 de la referencia [3]) y del 
+cálculo hecho en el punto 6 y análisis de resultados. Adjuntar link a resultados 
+de anotaciones hechas por anotadores (previos), las vuestras, y las de ChatGPT. 
+
+    [s]
+    * Tablas comparativas del dataset 3:
+    --> Vali entre distintos modelos y prompts. Hablar de la evolución del IAA con más ejemplos.
+    --> IAA del Held Out para los prompts elegidos
+
+    [eli]
+    * Reporte del IAA dataset 1 y 2 vs el prompt y modelo elegido.
+
+
+e.  Conclusiones 
+    [mañana]
+
+
+f.  Referencias bibliográfica
+    [pagina fede]
+    [y trbajos similares]
